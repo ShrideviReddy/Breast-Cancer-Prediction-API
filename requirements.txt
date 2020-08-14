@@ -1,7 +1,6 @@
 absl-py==0.7.1
 anaconda-client==1.2.2
 astor==0.7.1
-atari-py==0.2.6
 attrs==19.3.0
 backcall==0.2.0
 beautifulsoup4==4.9.1
@@ -62,10 +61,7 @@ libarchive-c==2.9
 Markdown==3.0.1
 MarkupSafe
 matplotlib==3.3.0
-missingno==0.4.2
 mistune
-mkl-fft==1.0.6
-mkl-random==1.0.1.1
 mock==2.0.0
 nbconvert
 nbformat==5.0.7
