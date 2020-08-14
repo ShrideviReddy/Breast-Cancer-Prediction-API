@@ -1,5 +1,6 @@
 absl-py==0.7.1
 anaconda-client==1.2.2
+anaconda-navigator
 astor==0.7.1
 atari-py==0.2.6
 attrs==19.3.0
@@ -19,6 +20,8 @@ click==7.1.2
 cloudpickle==1.2.2
 colorama==0.4.3
 conda==4.3.16
+conda-package-handling
+conda-verify
 conda-build==2.1.5
 conx==3.7.7
 cryptography==2.9.2
@@ -40,24 +43,24 @@ google-pasta==0.2.0
 grpcio==1.19.0
 gunicorn==20.0.4
 gym==0.15.4
-idna @ file:///tmp/build/80754af9/idna_1593446292537/work
+idna
 import-ipynb==0.1.3
-importlib-metadata @ file:///C:/ci/importlib-metadata_1593446525189/work
-ipykernel @ file:///C:/ci/ipykernel_1594829155762/work/dist/ipykernel-5.3.2-py3-none-any.whl
+importlib-metadata
+ipykernel
 ipynb==0.5.1
-ipython @ file:///C:/ci/ipython_1593433781269/work
+ipython 
 ipython-genutils==0.2.0
 ipywidgets==7.5.1
 itsdangerous==1.1.0
-jedi @ file:///C:/ci/jedi_1592833832328/work
+jedi
 Jinja2==2.11.2
 joblib==0.14.0
 json5==0.9.5
-jsonschema @ file:///C:/ci/jsonschema_1594363671836/work
-jupyter-client @ file:///tmp/build/80754af9/jupyter_client_1594826976318/work
+jsonschema 
+jupyter-client
 jupyter-core==4.6.3
 jupyterlab==2.1.5
-jupyterlab-server @ file:///tmp/build/80754af9/jupyterlab_server_1594164409481/work
+jupyterlab-server
 kaggle==1.5.6
 Keras==2.2.4
 Keras-Applications==1.0.8
@@ -67,18 +70,18 @@ kiwisolver==1.2.0
 Lasagne==0.2.dev1
 libarchive-c==2.9
 Markdown==3.0.1
-MarkupSafe @ file:///C:/ci/markupsafe_1594405949945/work
+MarkupSafe
 matplotlib==3.3.0
 menuinst==1.4.16
 missingno==0.4.2
-mistune @ file:///C:/ci/mistune_1594373272338/work
+mistune
 mkl-fft==1.1.0
 mkl-random==1.1.1
 mkl-service==2.3.0
 mock==2.0.0
 mpi4py==3.0.3
 navigator-updater==0.2.1
-nbconvert @ file:///C:/ci/nbconvert_1594372737468/work
+nbconvert
 nbformat==5.0.7
 nltk==3.5
 notebook==6.0.3
@@ -93,8 +96,8 @@ pandocfilters==1.4.2
 parso==0.7.0
 pathtools==0.1.2
 pbr==5.1.3
-pickleshare @ file:///C:/ci/pickleshare_1594374056827/work
-Pillow @ file:///C:/ci/pillow_1594298234712/work
+pickleshare 
+Pillow
 pipreqs==0.4.10
 pkginfo==1.5.0.1
 plotly==3.7.1
@@ -106,16 +109,16 @@ psycopg2==2.8.5
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
 pycosat==0.6.3
-pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
+pycparser
 pydot==1.4.1
 pygame==1.9.6
 pyglet==1.2.4
 Pygments==2.6.1
-pyOpenSSL @ file:///tmp/build/80754af9/pyopenssl_1594392929924/work
+pyOpenSSL 
 pyparsing==2.4.7
 PyQt5-sip==12.7.0
 pyrsistent==0.16.0
-PySocks @ file:///C:/ci/pysocks_1594394709107/work
+PySocks
 pystan==2.19.1.1
 python-dateutil==2.8.1
 python-slugify==4.0.0
@@ -126,7 +129,7 @@ PyYAML==5.3.1
 pyzmq==19.0.1
 QtPy==1.9.0
 regex==2020.7.14
-requests @ file:///tmp/build/80754af9/requests_1592841827918/work
+requests
 requests-oauthlib==1.3.0
 retrying==1.3.3
 rsa==4.0
@@ -156,12 +159,12 @@ tinycss2==1.0.2
 torch==1.4.0
 torchvision==0.5.0
 tornado==6.0.4
-tqdm @ file:///tmp/build/80754af9/tqdm_1593446365756/work
+tqdm
 traitlets==4.3.3
 tweepy==3.9.0
 urllib3==1.25.9
 watchdog==0.10.3
-wcwidth @ file:///tmp/build/80754af9/wcwidth_1593447189090/work
+wcwidth
 webencodings==0.5.1
 Werkzeug==1.0.1
 widgetsnbextension==3.5.1
