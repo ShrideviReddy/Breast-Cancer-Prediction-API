@@ -73,7 +73,6 @@ mistune
 mkl-fft==1.0.6
 mkl-random==1.0.1.1
 mock==2.0.0
-mpi4py==3.0.3
 nbconvert
 nbformat==5.0.7
 nltk==3.5
