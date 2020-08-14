@@ -1,5 +1,4 @@
 absl-py==0.7.1
-anaconda-navigator==1.9.12
 astor==0.7.1
 atari-py==0.2.6
 attrs==19.3.0
