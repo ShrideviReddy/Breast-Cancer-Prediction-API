@@ -2,9 +2,11 @@ import numpy as np
 from flask import Flask, request, jsonify, render_template
 import pickle
 
+
 app = Flask(__name__)
 app.config['TEMPLATES_AUTO_RELOAD'] = True
 model = pickle.load(open('model1.pkl', 'rb'))
+ALLOWED_HOSTS = ['*']
 
 @app.route('/')
 def home():
