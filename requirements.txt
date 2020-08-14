@@ -72,7 +72,6 @@ missingno==0.4.2
 mistune
 mkl-fft==1.0.6
 mkl-random==1.0.1.1
-mkl-service==2.3.0
 mock==2.0.0
 mpi4py==3.0.3
 navigator-updater==0.2.1
