@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Breast Cancer API</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="style2.css">
+<style type="text/css">
+  body {
+    background-color: #ffCECE;
+    color: #696969; }
+  </style>
+  
+</head>
+
+<body>
+ <div class="login">
+    <h1 style= "margin-left:430px; text-decoration: underline;">BREAST CANCER PREDICTION</h1>
+    <h2 style = "margin-left: 410px;">NOTE: This Project is just for educational purpose.</h2>
+    <h2 style = "margin-left: 190px;"> Do not use this web page for a medical diagonosis. 
+        For an actual diagonosis please consult doctor.</h2>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}"method="post" style= "margin-left:540px;">
+    	<input type="text" name="Clump Thickness" placeholder="Clump Thickness" required="required" size="25" />
+      <br>
+      <br>
+      <input type="text" name="Uniform Cell Size" placeholder="Uniform Cell Size" required="required" size="25" />
+      <br>
+      <br>
+      <input type="text" name="Uniform Cell Shape" placeholder="Uniform Cell Shape" required="required" size="25" />
+      <br>
+      <br>
+      <input type="text" name="Marginal Adhesion" placeholder="Marginal Adhesion" required="required" size="25" />
+      <br>
+      <br>
+      <input type="text" name="Single Epithelial Size" placeholder="Single Epithelial Size" required="required" size="25" />
+      <br>
+      <br>
+      <input type="text" name="Bare Nuclei" placeholder="Bare Nuclei" required="required" size="25" />
+      <br>
+      <br>
+      <input type="text" name="Bland Chromatin" placeholder="Bland Chromatin" required="required" size="25" />
+      <br>
+      <br>
+      <input type="text" name="Normal Nucleoli" placeholder="Normal Nucleoli" required="required" size="25" />
+      <br>
+      <br>
+      <input type="text" name="Mitoses" placeholder="Mitoses" required="required" size="25" />
+      <br>
+      <br>
+      <button type="submit" class="btn btn-primary btn-block btn-large" style= "padding: 8px 22px;text-align:center;">PREDICT BREAST CANCER</button>
+    </form>
+    <h4 style = "margin-left:460px;"> Class 2:  Indicates Benign And Class 4 : Indicates Malignant  </h4>
+   <h2 style = "margin-left: 570px;">
+   {{ prediction_text }}
+   </h2>
+
+   
+
+ </div>
+</body>
+</html>
