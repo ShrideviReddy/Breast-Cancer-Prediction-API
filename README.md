@@ -7,10 +7,10 @@
 
 
 ## Data:
-Source: https://archive.ics.uci.edu/ml/datasets/breast+cancer
+* Source: https://archive.ics.uci.edu/ml/datasets/breast+cancer
 
 ## Technology Used:
-Python, Flask, HTML, CSS, Heroku
+* Python, Flask, HTML, CSS, Heroku
 
 ## Deployment URL:
-https://breast-cancerapi.herokuapp.com/predict
+* URL: https://breast-cancerapi.herokuapp.com/predict
