@@ -13,4 +13,4 @@
 * Python, Flask, HTML, CSS, Heroku
 
 ## Deployment URL:
-* URL: https://breast-cancerapi.herokuapp.com/predict
+* URL: https://breast-cancerapi.herokuapp.com/
